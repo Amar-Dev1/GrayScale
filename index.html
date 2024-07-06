@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrayScale</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- bootstrap min file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- all min file -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;700&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <!-- font awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top text-light text-uppercase">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Logo</a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 p-0 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navbar -->
+    <div class="landing">
+        <div class="overlay"></div>
+        <div class="container-fluid text-center">
+            <div class="text">
+                <h1 class="mx-auto text-uppercase ">GrayScale</h1>
+                <h4 class="mx-auto mt-4 fw-2 mb-5 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                    provident dignissimos.</h4>
+                <a class="btn p-3" href="#about">Let`s Go !</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end landing -->
+    <!-- start about -->
+    <div id="about" class="about">
+        <div class="container-fluid text-center">
+            <div class="text">
+                <h2 class="text-light">Built with Bootstrap 5</h2>
+                <p class="text-white-50">Lorem adipisicing elit. Sapiente deleniti <br> accusantium quo pariatur!</p>
+            </div>
+            <img src="./media/ipad.png" alt="" class="img-fluid" style="max-width: 100%; height:auto">
+        </div>
+    </div>
+    <!-- end about -->
+
+    <!-- start projects -->
+    <div id="projects" class="projects">
+        <div class="container">
+            <!-- first row -->
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-8 text-align-center img1">
+                    <img class=" img-fluid" src="./media/landing.jpg" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <div class="text text-center mt-5">
+                        <h4>Shoreline</h4>
+                        <p class="text-black-50 pe-5 ps-5" style="font-size: .9rem">Lorem ipsum dolor, sit amet
+                            consectetur
+                            adipisicing elit. Nam accusantium vel dolores ab
+                            adipisci quod assumenda aspernatur</p>
+                    </div>
+                </div>
+            </div>
+            <!-- second row -->
+            <div class="row gx-0 mb-5 mt-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid" style="max-width: 100%; height:auto;" src="./media/demo-image-01.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 d-flex align-items-center p-5 ">
+                        <div class="misty-text  text-lg-left">
+                            <h4 class="text-white">Misty</h4>
+                            <p class="text-white-50 ps-4 pe-4" style="font-size: .9rem">Lorem ipsum dolor, sit amet
+                                consectetur
+                                adipisicing elit. Nam accusantium vel dolores abi quod !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- third row -->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="./media/demo-image-02.jpg" style="max-width: 100%; height:auto;">
+                </div>
+                <div class="col-lg-6 order-lg-first ">
+                    <div class="bg-black text-center h-100 d-flex align-items-center p-5 ">
+                        <div class="misty-text  text-lg-left">
+                            <h4 class="text-white">Mountains</h4>
+                            <p class="text-white-50 ps-4 pe-4" style="font-size: .9rem">Lorem ipsum dolor, sit amet
+                                consectetur adipisicing elit. Nam accusantium vel dolores abi quod !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end projects -->
+
+    <!-- start contact -->
+    <div id="contact" class="contact pt-5 pb-5">
+        <div class="container-fluid text-center">
+            <div class="contact-form">
+                <i class="far fa-paper-plane fa-2x mb-2 mt-5 text-white"></i>
+                <h2 class="text-white mt-3 mb-3">Send to me or mail me !</h2>
+                <form>
+                    <div><input class="rounded-3 mt-3 mb-3" type="email" placeholder="Enter Email Address"></div>
+                    <div><input class="rounded-3 mt-3 mb-3" type="text" placeholder="leave a Message ..."></div>
+                    <button class="btn text-white">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <div class="footer bg-black">
+        <div class="container">
+            <div class="social d-flex justify-content-center mb-5">
+                <a class="mx-2  text-white-50  fs-4 rounded-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="mx-2  text-white-50  fs-4 rounded-2" href="#"><i class="fab fa-instagram "></i></a>
+                <a class="mx-2  text-white-50  fs-4 rounded-2" href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="text-center mt-5 text-white-50">
+                <p>Copyright &copy;<span> Amar-San</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+
+    <!-- js bootstrap files -->
+    <script src="JS/all.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
